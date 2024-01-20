@@ -1,17 +1,18 @@
-Calculator {
+
+.Todo {
     padding: 20px;
     background-color: #f7f7f7;
     height: 100vh;
     overflow: auto;
    }
    
-   .Calculator h1 {
+   .Todo h1 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
    }
    
-   .Calculator input {
+   .Todo input {
     width: 100%;
     padding: 10px;
     font-size: 18px;
@@ -19,16 +20,9 @@ Calculator {
     border-radius: 5px;
    }
    
-   .Calculator .Operators,
-   .Calculator .Numbers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   }
-   
-   .Calculator button {
-    padding: 12px 24px;
-    margin: 5px;
+   .Todo button {
+    padding: 8px 12px;
+    margin-left: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -36,6 +30,18 @@ Calculator {
     cursor: pointer;
    }
    
-   .Calculator button:hover {
-    background-color: #0056b3;
+   .Todo ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .Todo li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    }
