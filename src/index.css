@@ -1,50 +1,41 @@
-
-.Todo{
-    padding :20px;
+Calculator {
+    padding: 20px;
     background-color: #f7f7f7;
-    height:100vh;
+    height: 100vh;
     overflow: auto;
-}
-.Todo h1{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
+   }
+   
+   .Calculator h1 {
+    font-size: 24px;
     color: #333;
     margin-bottom: 20px;
-}
-
-.Todo input{
+   }
+   
+   .Calculator input {
     width: 100%;
-    padding:10px;
+    padding: 10px;
     font-size: 18px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    cursor: pointer;
-}
-
-.Todo button {
-     padding: 8px 12px;
-     margin-left: 10px;
-     background-color: #007bff;
-     color:#fff;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-
-}
-
-.Todo ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-.Todo li{
-    padding: 10px;
-    margin-bottom: 5px;
-    background-color: #fff;
-    border : 1px solid #ddd;
-    border-radius: 5px;
+   }
+   
+   .Calculator .Operators,
+   .Calculator .Numbers {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-}
+   }
+   
+   .Calculator button {
+    padding: 12px 24px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   .Calculator button:hover {
+    background-color: #0056b3;
+   }
